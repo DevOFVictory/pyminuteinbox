@@ -1,8 +1,9 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
+VERSION = '0.9'
 DESCRIPTION = 'Minuteinbox API Wrapper'
-LONG_DESCRIPTION = 'A simple python API Wrapper for the temp mail service https://www.minuteinbox.com'
+with open('README.md', 'r') as f:
+    LONG_DESCRIPTION = f.read()
 
 # Setting up
 setup(
@@ -18,7 +19,7 @@ setup(
     package_dir={'': 'src'},
     keywords=['python', 'api', 'tempmail', 'trashmail', '10minutemail'],
     classifiers=[
-        "Development Status :: 1 - Development",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent"
