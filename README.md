@@ -7,6 +7,8 @@ Run the following command to install
 $ pip install pyminuteinbox
 ```
 
+PyPi: https://pypi.org/project/pyminuteinbox/
+
 
 ### Usage
 ```python
