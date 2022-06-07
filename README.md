@@ -27,3 +27,8 @@ print(f'Currently {str(len(inbox_get_all_mails()))} mails in inbox.')
 
 print(f'Mail {mail.subject} from {mail.sender} received.')
 ```
+
+### Examples
+You can find a few examples [here](https://github.com/DevOFVictory/pyminuteinbox/tree/master/examples)
+<br>
+Feel free to add new examples as lang as the current code style is respected. :) 
